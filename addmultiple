@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+ main() 
+{
+    int a,b,c,m;
+    printf("enter value of a : ");
+    scanf("%d",&a);
+    printf("enter value of b : ");
+    scanf("%d",&b);
+    c=a+b;
+    m=a*b;
+    
+    printf("sum of %d and %d is %d \n mutipication of %d and %d is %d", a,b,c,a,b,m);
+
+    return 0;
+}
