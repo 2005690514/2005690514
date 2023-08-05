@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+    int w;
+    printf(" enter your lucky number w : ");
+    scanf("%d",&w);
+    if(w%2==0)
+    { 
+        printf(" have a nice day");
+    }
+    else
+    {
+        printf("be carefull");
+    }
+    
+}
