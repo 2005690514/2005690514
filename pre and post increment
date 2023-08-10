@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+    int a=10;
+     int   x=0;
+     int B=20;
+     int y=0;
+      x=++a;
+      printf("after pre increment x=%d and a=%d", x,a);
+     
+      
+      x=a++;
+      printf(" \n after post increment a=%d and x= %d", a,x);
+     
+        
+}
+    
