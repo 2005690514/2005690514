@@ -1,0 +1,22 @@
+#include <stdio.h>
+main()
+{
+    int n;
+    printf("enter  order number between 22 to 29 : ");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 22 :
+        case 23 :
+        case 24 :printf(" order ready in 2 mints");
+                 break;
+        case 25 :
+        case 26 :
+        case 27 :
+        case 28 :
+        case 29 : printf("order is ready");
+                  break;
+        default : printf("order no is invilid ! ");
+    }
+}
+         
