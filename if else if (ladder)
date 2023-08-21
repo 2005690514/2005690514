@@ -1,0 +1,34 @@
+#include <stdio.h>
+main()
+{
+    int rn;
+    printf("enter your rn : ");
+    scanf("%d",&rn);
+    if(rn==21)
+    {
+        printf("ayan shaiikh result pass 35% ");
+    }
+    else if(rn==22)
+    {
+      printf("shivam chavan result pass 81% ");   
+      
+    }
+    else if(rn==23)
+    {
+        printf("asim sayyed result fail 28%");
+    }
+    else if(rn==24)
+    {
+        printf("abdul ansari result pass 78%");
+    }   
+        
+     else if(rn==25)
+    {
+        printf("noman khan result fail 28%");
+    }   
+        else
+    {
+     printf (" invalid roll number !");
+    }
+    
+}
