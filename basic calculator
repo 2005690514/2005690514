@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+    int a,b,op;
+    printf("enter value of a  : ");
+    scanf("%d",&a);
+     printf("enter value of b  : ");
+     scanf("%d",&b);
+    printf("select option \n 1-add \n 2-subs \n 3-multi \n 4-divide");
+    scanf("%d",&op);
+    switch (op)
+    {
+        case 1 : printf("add = %d ",a+b);
+                break;
+        case 2 : printf("subs = %d ",a-b);
+                break;
+        case 3 : printf("multi = %d ", a*b);
+                break;
+        case 4 : printf("div = %d", a/b);
+                break;
+        default : printf(" select correct option ");        
+        
+    }
+    
+   
+}
