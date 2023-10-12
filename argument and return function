@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+hello()
+{
+    printf("welcome to c\n");
+}
+float areaofcircle(int r)
+{   
+    float area;
+    area=3.14*r*r;
+    return area;
+    
+}
+main()
+{
+    hello();
+    int r;
+    
+    printf("enter radious of circle = ");
+    scanf("%d",&r);
+    
+    float area=areaofcircle(r);
+    printf("area is %f",area);
+     
+}
